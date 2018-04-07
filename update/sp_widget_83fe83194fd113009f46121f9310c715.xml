@@ -35,21 +35,21 @@ data.contact = getstore.getValue('contact');
 
 	data.date = new GlideDateTime().getDisplayValue();
 	data.billedby = gs.getUser().getDisplayName();
-	
+	gs.info("Test");
 })();]]></script>
         <servicenow>false</servicenow>
         <sys_class_name>sp_widget</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-04-05 14:02:19</sys_created_on>
         <sys_id>83fe83194fd113009f46121f9310c715</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>Sale Point</sys_name>
         <sys_package display_value="Store Management" source="x_213357_store_man">e1521c304f1113009f46121f9310c78e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Store Management">e1521c304f1113009f46121f9310c78e</sys_scope>
         <sys_update_name>sp_widget_83fe83194fd113009f46121f9310c715</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-07 04:56:43</sys_updated_on>
+        <sys_updated_on>2018-04-07 05:45:34</sys_updated_on>
         <template><![CDATA[<div class="container-fluid">
 <!-- your widget template -->
  
