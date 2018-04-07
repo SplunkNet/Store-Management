@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Customer information" section_id="ae3970854f5113009f46121f9310c73b" sys_domain="global" table="x_213357_store_man_sales" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customer_name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-04 08:27:52</sys_created_on>
+            <sys_id>4d5974854f5113009f46121f9310c77c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer information" display_value="Customer information" name="x_213357_store_man_sales" sys_domain="global" view="Default view">ae3970854f5113009f46121f9310c73b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-04 08:27:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customer_contact</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-04 08:27:52</sys_created_on>
+            <sys_id>cd5974854f5113009f46121f9310c77c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer information" display_value="Customer information" name="x_213357_store_man_sales" sys_domain="global" view="Default view">ae3970854f5113009f46121f9310c73b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-04 08:27:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customer_address</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-04 08:27:52</sys_created_on>
+            <sys_id>415974854f5113009f46121f9310c77d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer information" display_value="Customer information" name="x_213357_store_man_sales" sys_domain="global" view="Default view">ae3970854f5113009f46121f9310c73b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-04 08:27:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Customer information</caption>
+            <header>false</header>
+            <name>x_213357_store_man_sales</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-04 08:27:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae3970854f5113009f46121f9310c73b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Customer information</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Store Management" source="x_213357_store_man">e1521c304f1113009f46121f9310c78e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Store Management">e1521c304f1113009f46121f9310c78e</sys_scope>
+            <sys_update_name>sys_ui_section_ae3970854f5113009f46121f9310c73b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-04 08:27:25</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

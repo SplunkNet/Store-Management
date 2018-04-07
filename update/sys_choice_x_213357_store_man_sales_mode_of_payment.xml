@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="mode_of_payment" table="x_213357_store_man_sales" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mode_of_payment</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cash</label>
+            <language>en</language>
+            <name>x_213357_store_man_sales</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-04 08:39:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c80cbcc54f5113009f46121f9310c71d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-04 08:39:33</sys_updated_on>
+            <value>Cash</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mode_of_payment</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Card</label>
+            <language>en</language>
+            <name>x_213357_store_man_sales</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-04 08:39:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c0cbcc54f5113009f46121f9310c71e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-04 08:39:33</sys_updated_on>
+            <value>Card</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mode_of_payment</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wallet</label>
+            <language>en</language>
+            <name>x_213357_store_man_sales</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-04 08:39:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c0cbcc54f5113009f46121f9310c71f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-04 08:39:33</sys_updated_on>
+            <value>Wallet</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>mode_of_payment</element>
+            <name>x_213357_store_man_sales</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-04 08:39:33</sys_created_on>
+            <sys_id>080cbcc54f5113009f46121f9310c71e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>mode_of_payment</sys_name>
+            <sys_package display_value="Store Management" source="x_213357_store_man">e1521c304f1113009f46121f9310c78e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Store Management">e1521c304f1113009f46121f9310c78e</sys_scope>
+            <sys_update_name>sys_choice_x_213357_store_man_sales_mode_of_payment</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-04 08:39:33</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

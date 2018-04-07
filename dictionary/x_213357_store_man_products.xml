@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Products" max_length="40" name="x_213357_store_man_products" type="collection">
+        <element label="Batch ID" max_length="40" name="batch_id" type="string"/>
+        <element label="Brand" max_length="40" name="brand" type="string"/>
+        <element label="Expiry date" max_length="40" name="expiry_date" type="glide_date"/>
+        <element label="Manufacture date" max_length="40" name="manufacture_date" type="glide_date"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Price" max_length="20" name="price" type="price"/>
+        <element label="Product Code" max_length="40" name="product_code" type="string"/>
+        <element label="Purchased on" max_length="40" name="purchased_on" type="glide_date_time"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>

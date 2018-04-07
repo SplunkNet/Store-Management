@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Store member" max_length="40" name="x_213357_store_man_store_member" type="collection">
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element label="Working" sequence="0" value="Working"/>
+                <element label="Left" sequence="1" value="Left"/>
+                <element label="Retired" sequence="2" value="Retired"/>
+            </choice>
+        </element>
+        <element label="Store" max_length="32" name="store" reference="x_213357_store_man_store" reference_floats="true" type="reference"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element label="Owner" sequence="0" value="Owner"/>
+                <element label="Manager" sequence="1" value="Manager"/>
+                <element label="Sales person" sequence="2" value="Sales person"/>
+                <element label="Representative" sequence="3" value="Representative"/>
+            </choice>
+        </element>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="store"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

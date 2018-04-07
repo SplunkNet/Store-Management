@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="aa3970854f5113009f46121f9310c73a" sys_domain="global" table="x_213357_store_man_sales" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-04 08:27:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>663970854f5113009f46121f9310c73b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_213357_store_man_sales" name="x_213357_store_man_sales" sys_domain="global" view="Default view">aa3970854f5113009f46121f9310c73a</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_213357_store_man_sales" sys_domain="global" view="Default view">363af8fc4f5113009f46121f9310c7b2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-04 08:27:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-04 08:27:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea3970854f5113009f46121f9310c73c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_213357_store_man_sales" name="x_213357_store_man_sales" sys_domain="global" view="Default view">aa3970854f5113009f46121f9310c73a</sys_ui_form>
+            <sys_ui_section caption="Customer information" display_value="Customer information" name="x_213357_store_man_sales" sys_domain="global" view="Default view">ae3970854f5113009f46121f9310c73b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-04 08:27:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_213357_store_man_sales</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-04 08:27:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aa3970854f5113009f46121f9310c73a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_213357_store_man_sales</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Store Management" source="x_213357_store_man">e1521c304f1113009f46121f9310c78e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Store Management">e1521c304f1113009f46121f9310c78e</sys_scope>
+            <sys_update_name>sys_ui_form_sections_aa3970854f5113009f46121f9310c73a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-04 08:27:25</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

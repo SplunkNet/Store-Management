@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Inventory" max_length="40" name="x_213357_store_man_inventory" type="collection">
+        <element label="Product" max_length="32" name="product" reference="x_213357_store_man_products" type="reference"/>
+        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element label="Section" max_length="32" name="section" reference="x_213357_store_man_section" type="reference"/>
+        <element label="Store" max_length="32" name="store" read_only="true" reference="x_213357_store_man_store" type="reference"/>
+        <index name="index">
+            <element name="product"/>
+        </index>
+        <index name="index2">
+            <element name="section"/>
+        </index>
+        <index name="index3">
+            <element name="store"/>
+        </index>
+    </element>
+</database>

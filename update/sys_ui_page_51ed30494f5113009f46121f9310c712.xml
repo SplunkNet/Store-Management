@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[    function AddoRow() {
+        var newRow = $("<tr>");
+        var cols = "";
+
+        cols += '<td><input type="text" class="form-control" name="name' + counter + '"/></td>';
+        cols += '<td><input type="text" class="form-control" name="mail' + counter + '"/></td>';
+        cols += '<td><input type="text" class="form-control" name="phone' + counter + '"/></td>';
+
+        cols += '<td><input type="button" class="ibtnDel btn btn-md btn-danger "  value="Delete"></td>';
+        newRow.append(cols);
+        $("table.order-list").append(newRow);
+        counter++;
+    }
+
+
+
+
+]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_213357_store_man_pos.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<g:evaluate var="jvar_getstore" object="true">
+	var getstore = new GlideRecord('x_213357_store_man_store');
+    getstore.get('number','STORE0001001');
+	getstore;
+</g:evaluate>
+	
+	
+	
+	<div class="row">
+  <div class="col-md-12 text-center"><h4>Welcome to ${jvar_getstore.getValue('store_name')}</h4></div>
+
+</div>
+<div class="row">
+  <div class="col-md-12 offset-md-12 text-center"><h5>${getstore.address.street}, ${getstore.address.city}, ${getstore.address.state},${getstore.address.country},${getstore.address.zip}</h5></div>
+
+</div>
+<div class="row">
+  <div class="col-md-12 offset-md-12 text-center"><h5>Contact: - ${getstore.contact}</h5></div>
+</div>
+	
+	<div class="row">
+  <div class="col-md-6 offset-md-6 text-left"><h5>Date: </h5></div>
+		<div class="col-md-6 offset-md-6 text-right"><h5>Billed by:</h5></div>
+</div>
+	
+	<!--Custom code-->
+	<div class="container">
+
+	<div class="row">
+  <div class="col-md-6 offset-md-6 text-center">Product</div>
+		<div class="col-md-2 offset-md-2 text-center">Quantiy</div>
+		<div class="col-md-4 offset-md-4 text-center">Price</div>
+</div>
+	</div>
+	
+	<div class="container">
+			<table>
+    <tbody>
+        <tr>
+            <td class="col-sm-4">
+                <input type="text" name="name" class="form-control" />
+            </td>
+            <td class="col-sm-4">
+                <input type="mail" name="mail"  class="form-control"/>
+            </td>
+            <td class="col-sm-3">
+                <input type="text" name="phone"  class="form-control"/>
+            </td>
+            <td class="col-sm-2"><a class="deleteRow"></a>
+
+            </td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="5" style="text-align: left;">
+                <input type="button" class="btn btn-lg btn-block " id="addrow" value="Add Row" onclick="AddRow" />
+            </td>
+        </tr>
+        <tr>
+        </tr>
+    </tfoot>
+</table>
+	</div>
+		<!--Custom code-->
+	
+	
+</j:jelly>]]></html>
+        <name>pos</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-04 11:09:37</sys_created_on>
+        <sys_id>51ed30494f5113009f46121f9310c712</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>pos</sys_name>
+        <sys_package display_value="Store Management" source="x_213357_store_man">e1521c304f1113009f46121f9310c78e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Store Management">e1521c304f1113009f46121f9310c78e</sys_scope>
+        <sys_update_name>sys_ui_page_51ed30494f5113009f46121f9310c712</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-05 06:24:25</sys_updated_on>
+    </sys_ui_page>
+</record_update>

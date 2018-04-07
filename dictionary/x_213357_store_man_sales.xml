@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Sales" max_length="40" name="x_213357_store_man_sales" type="collection">
+        <element label="Amount payable" max_length="20" name="amount_payable" type="price"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Bank" max_length="40" name="bank" type="string">
+            <choice>
+                <element label="Axis" sequence="0" value="Axis"/>
+                <element label="HDFC" sequence="1" value="HDFC"/>
+                <element label="ICICI" sequence="2" value="ICICI"/>
+                <element label="State Bank" sequence="3" value="State Bank"/>
+                <element label="Bank of India" sequence="4" value="Bank of India"/>
+                <element label="UBI" sequence="5" value="UBI"/>
+            </choice>
+        </element>
+        <element label="Comments" max_length="4000" name="comments" type="journal"/>
+        <element label="Customer address" max_length="40" name="customer_address" type="string"/>
+        <element label="Customer Contact" max_length="40" name="customer_contact" type="phone_number_e164"/>
+        <element label="Customer Name" max_length="40" name="customer_name" type="string"/>
+        <element label="Discount" max_length="20" name="discount" type="price"/>
+        <element choice="1" label="Mode of payment" max_length="40" name="mode_of_payment" type="choice">
+            <choice>
+                <element label="Cash" sequence="0" value="Cash"/>
+                <element label="Card" sequence="1" value="Card"/>
+                <element label="Wallet" sequence="2" value="Wallet"/>
+            </choice>
+        </element>
+        <element label="Product" max_length="32" name="product" reference="x_213357_store_man_products" type="reference"/>
+        <element label="Purchase Order" max_length="40" name="purchase_order" type="string"/>
+        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element label="Return reason" max_length="40" name="return_reason" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element label="Purchased" sequence="0" value="Purchased"/>
+                <element label="Return requested" sequence="1" value="Return requested"/>
+                <element label="Return approved" sequence="2" value="Return approved"/>
+                <element label="Returned" sequence="3" value="Returned"/>
+                <element label="Cancelled" sequence="4" value="Cancelled"/>
+            </choice>
+        </element>
+        <element label="Store" max_length="32" name="store" reference="x_213357_store_man_store" type="reference"/>
+        <element label="Total amount" max_length="20" name="total_amount" type="price"/>
+        <element label="Transaction ID" max_length="40" name="transaction_id" type="string"/>
+        <index name="index">
+            <element name="product"/>
+        </index>
+        <index name="index2">
+            <element name="store"/>
+        </index>
+    </element>
+</database>

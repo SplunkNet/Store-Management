@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Section" max_length="40" name="x_213357_store_man_section" type="collection">
+        <element choice="3" default="Romantic" label="Content type" max_length="40" name="content_type" type="choice">
+            <choice>
+                <element label="Romantic" sequence="0" value="Romantic"/>
+                <element label="Drama" sequence="1" value="Drama"/>
+                <element label="Sc. Fiction" sequence="2" value="Sc. Fiction"/>
+                <element label="Adventure" sequence="3" value="Adventure"/>
+                <element label="Computer" sequence="4" value="Computer"/>
+                <element label="Electronics" sequence="5" value="Electronics"/>
+                <element label="Kids" sequence="6" value="Kids"/>
+            </choice>
+        </element>
+        <element label="Direction" max_length="200" name="direction" type="string"/>
+        <element label="Name" mandatory="true" max_length="50" name="name" type="string"/>
+        <element label="Store" mandatory="true" max_length="32" name="store" read_only="true" reference="x_213357_store_man_store" type="reference"/>
+        <index name="index">
+            <element name="name"/>
+        </index>
+        <index name="index2">
+            <element name="store"/>
+        </index>
+    </element>
+</database>

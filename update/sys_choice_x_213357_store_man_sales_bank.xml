@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="bank" table="x_213357_store_man_sales" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>bank</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Axis</label>
+            <language>en</language>
+            <name>x_213357_store_man_sales</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-04 08:40:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5e3c30094f5113009f46121f9310c797</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-04 08:40:31</sys_updated_on>
+            <value>Axis</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>bank</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HDFC</label>
+            <language>en</language>
+            <name>x_213357_store_man_sales</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-04 08:40:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>123c30094f5113009f46121f9310c799</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-04 08:40:31</sys_updated_on>
+            <value>HDFC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>bank</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ICICI</label>
+            <language>en</language>
+            <name>x_213357_store_man_sales</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-04 08:40:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>de3c30094f5113009f46121f9310c799</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-04 08:40:31</sys_updated_on>
+            <value>ICICI</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>bank</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>State Bank</label>
+            <language>en</language>
+            <name>x_213357_store_man_sales</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-04 08:40:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9e3c30094f5113009f46121f9310c79a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-04 08:40:31</sys_updated_on>
+            <value>State Bank</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>bank</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bank of India</label>
+            <language>en</language>
+            <name>x_213357_store_man_sales</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-04 08:40:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5e3c30094f5113009f46121f9310c79b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-04 08:40:31</sys_updated_on>
+            <value>Bank of India</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>bank</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>UBI</label>
+            <language>en</language>
+            <name>x_213357_store_man_sales</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-04 08:40:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1e3c30094f5113009f46121f9310c79c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-04 08:40:31</sys_updated_on>
+            <value>UBI</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>bank</element>
+            <name>x_213357_store_man_sales</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-04 08:40:31</sys_created_on>
+            <sys_id>9a3c30094f5113009f46121f9310c798</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>bank</sys_name>
+            <sys_package display_value="Store Management" source="x_213357_store_man">e1521c304f1113009f46121f9310c78e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Store Management">e1521c304f1113009f46121f9310c78e</sys_scope>
+            <sys_update_name>sys_choice_x_213357_store_man_sales_bank</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-04 08:40:31</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
